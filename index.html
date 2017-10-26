@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>Javascript Keyboard Drumkit</title>
+
+    <!-- Fonts -->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+
+
+    <div class="wrapper">
+      <div class="keys">
+        <div data-key="a" class="key"><kbd>A</kbd><span class="sound">Clap</span></div>
+        <div data-key="s" class="key"><kbd>S</kbd><span class="sound">Hihat</span></div>
+        <div data-key="d" class="key"><kbd>D</kbd><span class="sound">Kick</span></div>
+        <div data-key="f" class="key"><kbd>F</kbd><span class="sound">OpenHat</span></div>
+        <div data-key="g" class="key"><kbd>G</kbd><span class="sound">Boom</span></div>
+        <div data-key="h" class="key"><kbd>H</kbd><span class="sound">Ride</span></div>
+        <div data-key="j" class="key"><kbd>J</kbd><span class="sound">Snare</span></div>
+        <div data-key="k" class="key"><kbd>K</kbd><span class="sound">Tom</span></div>
+        <div data-key="l" class="key"><kbd>L</kbd><span class="sound">Tink</span></div>
+      </div><!--// end .keys -->
+      <div class="notkey">
+          <input type="text" class="form-control form-control-lg" id="inputtedKeys" />
+          <button class="btn btn-primary" id="autoplay">Repeat</button>
+      </div>
+    </div> 
+    <!-- end .wrapper -->
+
+
+    <audio src="assets/sounds/clap.wav" data-key="a"></audio>
+    <audio src="assets/sounds/hihat.wav" data-key="s"></audio>
+    <audio src="assets/sounds/kick.wav" data-key="d"></audio>
+    <audio src="assets/sounds/openhat.wav" data-key="f"></audio>
+    <audio src="assets/sounds/boom.wav" data-key="g"></audio>
+    <audio src="assets/sounds/ride.wav" data-key="h"></audio>
+    <audio src="assets/sounds/snare.wav" data-key="j"></audio>
+    <audio src="assets/sounds/tom.wav" data-key="k"></audio>
+    <audio src="assets/sounds/tink.wav" data-key="l"></audio>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+
+    <!-- <script src="assets/libs/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="assets/libs/bootstrap.min.js"></script> -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
